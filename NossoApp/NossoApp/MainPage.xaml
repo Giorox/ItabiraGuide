@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:NossoApp"
+             x:Class="NossoApp.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             Page.BackgroundImage="teste_background.png">
+
+    <StackLayout>
+        <Label Text="Bem-vindo!" HorizontalOptions="Center" FontSize="28" FontFamily = "BirdsofParadise.ttf#Birds-Paradise" TranslationY="50" TextColor="Black"/>
+        <Button x:Name="itabiranoButton" Text="Guia de Itabira" Clicked="OnItabira" TranslationY="100" WidthRequest="40" HeightRequest="45" BorderRadius="30" BackgroundColor="WhiteSmoke" Opacity="0.9"/>
+        <Button x:Name="unifeiButton" Text="Guia de Itabira e da Unifei" Clicked="OnUnifei" TranslationY="100" WidthRequest="40" HeightRequest="45" BorderRadius="30" BackgroundColor="WhiteSmoke" Opacity="0.9"/>
+        <Button x:Name="GoButton" Image="Test_arrow_black.png" Clicked="OnGo" TranslationY="140" WidthRequest="55" HeightRequest="50" BorderRadius="25" HorizontalOptions="Center" BackgroundColor="WhiteSmoke" Opacity="0.9"/>
+    </StackLayout>
+
+</ContentPage>
